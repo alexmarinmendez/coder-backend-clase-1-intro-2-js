@@ -4,10 +4,6 @@ const persona = {
     edad: 46
 }
 
-persona = {
-    name: 'Leandro',
-    apellido: 'Martinez',
-    edad: 35
-}
+persona.edad = 51
 
 console.log(persona)
