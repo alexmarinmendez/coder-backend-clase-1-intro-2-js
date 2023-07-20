@@ -5,10 +5,6 @@ let people = [
     { id: 4, first_name: "Franco", last_name: "Chachagua", age: 30, gender: "M" }
 ]
 
-let person = people.find(p => {
-    let test
-    test = p.id === 3
-    return test
-})
+let person = people.find(p => p.id === 3)
 
 console.log(person)
